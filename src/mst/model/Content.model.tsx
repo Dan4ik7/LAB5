@@ -17,7 +17,7 @@ export const ContentModel = types.model('ContentModel', {
             self.title.includes(param)
         }
     }))
-    .actions((self) => ({
+    .agit ns((self) => ({
         changeNotes(value: string) {
             self.notes = value
         },
